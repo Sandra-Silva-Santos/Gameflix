@@ -112,6 +112,8 @@ a.botao {
 }
 
 .gallery-thumbs {
+  width: 600px;
+  height: 300px;
   height: 20%;
   box-sizing: border-box;
   margin: 1rem;
@@ -121,6 +123,12 @@ a.botao {
 .gallery-thumbs .swiper-slide {
   height: 100%;
   opacity: 0.6;
+
+}
+
+.gallery-thumbs img {
+  border: 1px black solid;
+  border-radius: 5px;
 }
 
 .gallery-thumbs .swiper-slide-thumb-active {
@@ -153,6 +161,10 @@ footer {
 
   .botao {
     margin: 0.25rem;
+  }
+
+  h2{
+    text-align: center;
   }
 
   a {
